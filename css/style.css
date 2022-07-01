@@ -1,0 +1,591 @@
+/* Gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: rgb(68, 68, 68);
+    font-size: 15px;
+}
+
+/* Barra de Navegação */
+header, .navbar {
+background-color: #444;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#navbar-links a {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+#button-login {
+    background-color: #640000;
+    width: 7rem;
+    border: 0;
+    border-radius: 20px;
+    margin: .5rem ;
+}
+
+#button-login:hover {
+    background-color: #000000;
+    transition: .7s;
+}
+
+#button-login a {
+    text-decoration: none;
+}
+
+.carousel-indicators li {
+    size: 10px 10px;
+}
+
+/* Slider */
+
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+  height: 90vh;  
+}
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+.main-btn {
+    background-color:#640000;
+    color:#fff;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border: 1px #640000 solid;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #fff;
+    border: 1px #640000 solid;
+}
+
+.carousel-indicators .active {
+    background-color: #640000;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* Sobre a empresa*/
+
+#about-area {
+    background-color: #f9f9f9;
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #640000;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #640000;
+    margin-right: 15px;
+}
+
+/* Serviçoes */
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+    transition: .5s;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 40px;
+
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+    color: #640000;
+}
+
+.service-box:hover > p {
+    transition: .5s;
+    font-size: 17px;
+}
+
+/* Dados */
+
+
+
+.circle-box div {
+    padding: 0 40px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.p-parallax {
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+
+/* Planos */
+
+.col-md-3 .card {
+    border: none;
+    background-color: #f9f9f9;
+    padding-top: 20px;
+    padding: 20px 10px 10px;
+    border-radius: 10px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body p {
+    background-color: #f9f9f9;
+    font-size: 20px;
+    color: #640000;
+    border: 1px solid #640000;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.card-title {
+    text-align: center;
+    color: #640000;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.card-text {
+    font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+
+/* Trabalhe conosco */
+
+#apply-area {
+    height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row {
+    height: 100%;
+}
+
+#apply-area .apply-box {
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#company-img {
+    background-image: url('../img/empresa.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+#pattern-img {
+    height: 100%;
+}
+
+#pattern-img h4, #pattern-img p {
+    color: #fff;
+}
+
+.pattern-img h4 {
+    margin-top: 8%;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#pattern-img p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+#pattern-img p:hover {
+    font-size: 25px;
+}
+
+#apply-btn {
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+#apply-btn:hover {
+    border-color: #640000;
+    background-color: #640000;
+}
+
+/* Equipamentos */
+
+.project-box {
+    margin-bottom: 30px;
+}
+
+#filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#equipamentos-area .filter-btn {
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#equipamentos-area .filter-btn.active, #equipamentos-area .filter-btn:hover {
+    color: #fff;
+    background-color: #640000;
+    border-color: #fff;
+}
+
+/* News letter */
+
+#news-area {
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#news-area p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#email-input {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #640000;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#news-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #640000;
+    background-color: #640000;
+    color: #fff;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -0px;
+    position: absolute;
+    transition: .5s;
+}
+
+#news-btn:hover {
+    background-color: #fff;
+    color: #640000;
+    transition: .5s;
+}
+
+/* call to action */
+
+#call-area {
+    background-color: #640000;
+    text-transform: uppercase;
+}
+
+#call-area .container {
+    padding: 40px 100px;
+}
+
+#call-area .row {
+    display: block;
+    text-align: center;
+}
+
+#call-area p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+}
+
+#call-area #call-btn {
+    background-color: #fff;
+    color: #640000;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    width: auto;
+    letter-spacing: 2px;
+}
+
+#call-area #call-btn:hover {
+    background-color: #fff;
+}
+
+/* footer */
+
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #640000;
+}
+
+.contact-box i {
+    color: #640000;
+    border: solid 1px #640000;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #640000;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+/* Copy */
+
+#copy-area {
+    background-color: #444;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+#copy-area a {
+    font-weight: bold;
+    color: #000000;
+}
+
+#copy-area a:hover {
+    text-decoration: none;
+    color: #640000;
+}
+
+/*responsivo */
+
+@media(max-width: 768px) {
+    /* geral */
+
+    .container{
+        padding: 20px 0;
+    }
+
+    /* slider */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: auto;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 30px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .carousel-caption {
+        left: 10%;
+        right: 10%;
+    }
+
+    /* about */
+    #about-area img {
+        margin-top: 150px;
+    }
+
+    /* Data */
+    .circle-box div {
+        padding: 0 10px;
+    }
+
+    #data-area p {
+        font-size: 16px;
+    }
+
+    /* Planos */
+
+
+    .card-title {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .card-body .card-text {
+        height: 70px;
+        width: 120px;
+    }
+
+    /* Newsletter */
+    #news-area form {
+        margin-right: 18%;
+    }
+
+    #news-area #email-input {
+        width: 70%;
+    }
+}
+
+@media(max-width:425px){
+    /* slider */
+    #mainSlider {
+        margin-top: 90p´x;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 5%;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 10px;
+        margin-bottom: none;
+    }
+
+    #mainSlider .carousel-caption p {
+        display: none;
+    }
+
+}
+
