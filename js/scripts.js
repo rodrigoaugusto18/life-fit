@@ -159,4 +159,41 @@ $(document).ready(function() {
     }
   }
 
+  // scrol para seções
+  let navBtn = $('.nav-item');
+
+  let inicioSection = $('#mainSlider');
+  let aboutSection = $('#about-area');
+  let servicesSection = $('#services-area');
+  let planosSection = $('#planos-area');
+  let equipamentosSection = $('#equipamentos-area');
+  let contactSection = $('#contact-area');
+
+  let scrollTo = '';
+
+  $(navBtn).click(function(){ 
+
+    let btnId = $(this).attr('id');
+
+    if(btnId == "about-menu") {
+      scrollTo = aboutSection
+    }else if(btnId == 'services-menu') {
+      scrollTo= servicesSection
+    }else if(btnId == 'planos-menu') {
+      scrollTo= planosSection
+    }else if(btnId == 'equipamentos-menu') {
+      scrollTo= equipamentosSection
+    }else if(btnId == 'contact-menu') {
+      scrollTo= contactSection
+    }else {
+      scrollTo= inicioSection
+    }
+
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $(scrollTo).offset().top - 70
+    }, 1500)
+
+  });
+
+
 });

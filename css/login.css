@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica;
-    color: #323232;
+    color: #640000;
     border: none;
 }
 
@@ -22,10 +22,80 @@ textarea:focus, input:focus {
 a, label {
     font-size: .8rem;
 }
+label {
+    color: #000000;
+}
 
 a:hover {
-    color: #08558B;
+    color: #640000;
 }
+
+/* Barra de Navegação */
+header, .navbar {
+    background-color: #444;
+    height: 90px;
+    }
+    
+    #nav-container {
+        padding-top: 0;
+        padding-bottom: 0;
+        text-align: center;
+    }
+
+    #nav-container #butao-login {
+        text-decoration: none;
+    }
+    
+    #logo {
+        width: 75px;
+    }
+    
+    .navbar-brand {
+        padding: 0;
+        color: #fff;
+    }
+    
+    .navbar-brand:hover {
+        color: #fff;
+    }
+    
+    #navbar-links a {
+        color: #fff;
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 2.3rem .8rem;
+    }
+    
+    #button-login {
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+        background-color: #640000;
+        width: 7rem;
+        height: 40px;
+        border: 0;
+        border-radius: 20px;
+        text-transform: none;
+        font-weight: bold;
+    }
+
+    #butao-login {
+        margin-right: 10px;
+    }
+    
+    #button-login:hover {
+        background-color: #000000;
+        transition: .7s;
+    }
+    
+    #button-login a {
+        text-decoration: none;
+    }
+    
+    .carousel-indicators li {
+        size: 10px 10px;
+    }
 
 /* cotainer login */
 
@@ -34,10 +104,11 @@ a:hover {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 30px;
-    margin-top: 10vh;
+    margin-top: 15%;
+    margin-bottom: 10%;
     border-radius: 10px;
     text-align: center;
+    padding: 20px 30px;
 }
 
 /* formulario */
@@ -45,6 +116,11 @@ a:hover {
 form {
     margin-top: 30px;
     margin-bottom: 40px;
+}
+
+h1 img {
+    width: 130px;
+    height: 130px;
 }
 
 label, input {
@@ -58,14 +134,15 @@ label {
 }
 
 input {
-    border-bottom: 2px solid #323232;
+    border-bottom: 2px solid #000000;
     padding: 10px;
     font-size: 1rem;
     margin-bottom: 20px;
 }
 
 input:focus {
-    border-bottom: 2px solid #08558B;
+    transition: .5s;
+    border-bottom: 3px solid #640000;
 }
 
 #forgot-pass {
@@ -82,12 +159,12 @@ input[type="submit"] {
     border-radius: 20px;
     margin-top: 30px;
     color: #fff;
-    background-color: black;
+    background-color: #640000;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #1B223C;
+    background-color: #000000;
     transition: .5s;
 }
 
@@ -109,4 +186,23 @@ input[type="submit"]:hover {
     width: 40px;
     margin: 0 5px;
     cursor: pointer;
+}
+
+p {
+    color: #000000;
+}
+
+@media(max-width:768px) {
+    #login-container {
+        margin-top: 20%;
+        margin-bottom: 15%;
+    }
+}
+
+@media(max-width:426px) {
+    #login-container {
+        width: 70%;
+        margin-top: 50%;
+        margin-bottom: 30%;
+    }
 }

@@ -48,11 +48,13 @@ background-color: #444;
 }
 
 #button-login {
+    color: #fff;
     background-color: #640000;
     width: 7rem;
+    height: 33px;
     border: 0;
     border-radius: 20px;
-    margin: .5rem ;
+    margin-top: 11px;
 }
 
 #button-login:hover {
@@ -568,24 +570,126 @@ h2 {
     }
 }
 
-@media(max-width:425px){
+@media(max-width:426px){
     /* slider */
-    #mainSlider {
-        margin-top: 90p´x;
-    }
-
-    #mainSlider .carousel-caption {
-        top: 5%;
-    }
-
-    #mainSlider .carousel-caption h2 {
-        font-size: 10px;
-        margin-bottom: none;
-    }
-
-    #mainSlider .carousel-caption p {
+    #mainSlider .carousel-indicators li {
         display: none;
     }
 
-}
+    /* Sobre nós */
+    #about-area .img-fluid {
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
 
+    /*Planos */
+    #services-area .main-title {
+        margin-bottom: 100px;
+    }
+
+    #services-area .main-title::after {
+        margin-top: 70px;
+    }
+
+    #services-area i {
+        color: #640000;
+    }
+
+    #services-area h4{
+        color: #640000;
+    }
+
+    #services-area p {
+        font-size: 20px;
+    }
+
+    /* Dados */
+    #data-area .circle-box div {
+        padding: 0;
+    }
+    
+    #data-area .progressbar-text {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    #data-area .p-parallax {
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    /* Serviçoes da empresa */
+
+    .circle-box {
+        width: 50%;
+    }
+
+    /* Planos */
+
+    #planos-area .col-md-3 {
+        width: 50%;
+    }
+
+    #planos-area h5 {
+        color: #000000;
+        font-size: 25px;
+    }
+
+    #planos-area .card-text {
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        border: none;
+        border-bottom: 1px #640000 solid;
+    }
+
+    /* Trabalhe conosco */
+
+    #apply-area #company-img {
+        display: none;
+    }
+
+    /* Equipamentos */
+
+    #equipamentos-area .main-title::after {
+        margin-top: 70px;
+    }
+
+
+    #equipamentos-area .project-box {
+        width: 50%;
+    }
+
+    #equipamentos-area #filter-btn-box button{
+        margin-bottom: 20px;
+    }
+
+    /* News area */
+
+    #news-area .main-title::after {
+        margin-top: 70px;
+    }
+
+    #news-area form {
+        margin-right: 120px;
+    }
+
+    /* Call area */
+    #call-area .container{
+        padding: 80px 30px;
+    }
+
+    #call-area button {
+        margin-left: auto;
+        margin-right: 30px;
+    }
+
+    /* Contact area */
+
+    #contact-area .main-title::after {
+        margin-top: 70px;
+    }
+}
