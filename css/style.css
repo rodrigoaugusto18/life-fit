@@ -66,6 +66,26 @@ background-color: #444;
     text-decoration: none;
 }
 
+#button-cadastro {
+    color: #fff;
+    background-color: #640000;
+    width: 7rem;
+    height: 33px;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+#button-cadastro:hover {
+    background-color: #000000;
+    transition: .7s;
+}
+
+#button-cadastro a {
+    text-decoration: none;
+}
+
 .carousel-indicators li {
     size: 10px 10px;
 }

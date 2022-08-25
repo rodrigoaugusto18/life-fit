@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #640000;
+    border: none;
+}
+
+body {
+    background-image: url('../img/carousel3.jpg');
+    background-size: cover;
+}
+
+#logo {
+    width: 75px;
+}
+
+.nav-bar {
+    background-color: #444;
+}
+
+.form-cadastro {
+    background-color: #fff;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.form-cadastro h1 img{
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+    color: #000000;
+    font-size: .8rem;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+
+input:focus {
+    transition: .5s;
+    outline: none;
+    border-bottom: 3px solid #640000;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+    color: #fff;
+    background-color: #640000;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+    transition: .5s;
+}
+
